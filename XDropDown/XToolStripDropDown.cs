@@ -58,6 +58,13 @@ namespace XDropDown
             Show(control, control.ClientRectangle);
         }
 
+        public void Show(UserControl control)
+        {
+            if (control == null)
+                throw new ArgumentNullException("control");
+
+            Show(control, control.ClientRectangle);
+        }
 
     }
 }
