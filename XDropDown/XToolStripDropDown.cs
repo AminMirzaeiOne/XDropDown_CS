@@ -3,10 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace XDropDown
 {
-    internal class XToolStripDropDown
+    public class XToolStripDropDown : System.Windows.Forms.ToolStripDropDown
     {
+        private System.Windows.Forms.Control m_popedContainer;
     }
 }
