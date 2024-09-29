@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -114,6 +115,17 @@ namespace XDropDown
             }
             Opacity = opacity;
         }
+
+        protected override void OnOpening(CancelEventArgs e)
+        {
+            if (m_popedContainer.IsDisposed || m_popedContainer.Disposing)
+            {
+                e.Cancel = true;
+                return;
+            }
+            base.OnOpening(e);
+        }
+
 
 
 
