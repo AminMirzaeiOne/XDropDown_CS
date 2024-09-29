@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35222.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XDropDown", "XDropDown\XDropDown.csproj", "{4AF620A1-229B-4627-970F-AFD46B19CB26}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4AF620A1-229B-4627-970F-AFD46B19CB26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4AF620A1-229B-4627-970F-AFD46B19CB26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4AF620A1-229B-4627-970F-AFD46B19CB26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4AF620A1-229B-4627-970F-AFD46B19CB26}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0475CA40-F8F5-40FD-B92E-26F271C5D146}
+	EndGlobalSection
+EndGlobal
