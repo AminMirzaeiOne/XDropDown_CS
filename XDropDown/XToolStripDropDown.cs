@@ -98,6 +98,24 @@ namespace XDropDown
             Show(control, location, ToolStripDropDownDirection.BelowRight);
         }
 
+        protected override void SetVisibleCore(bool visible)
+        {
+            double opacity = Opacity;
+            if (visible && m_fade) Opacity = 0;
+            base.SetVisibleCore(visible);
+            if (!visible || !m_fade) return;
+            for (int i = 1; i <= frames; i++)
+            {
+                if (i > 1)
+                {
+                    System.Threading.Thread.Sleep(frameduration);
+                }
+                Opacity = opacity * (double)i / (double)frames;
+            }
+            Opacity = opacity;
+        }
+
+
 
     }
 }
