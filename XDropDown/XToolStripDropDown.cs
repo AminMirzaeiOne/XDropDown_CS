@@ -16,6 +16,10 @@ namespace XDropDown
 
         private bool m_fade = true;
 
+        private const int frames = 5;
+        private const int totalduration = 100;
+        private const int frameduration = totalduration / frames;
+
         public XToolStripDropDown(System.Windows.Forms.Control popedControl)
         {
             InitializeComponent();
