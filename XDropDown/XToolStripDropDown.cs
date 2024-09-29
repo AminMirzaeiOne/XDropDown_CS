@@ -50,6 +50,14 @@ namespace XDropDown
             return base.ProcessDialogKey(keyData);
         }
 
+        public void Show(Control control)
+        {
+            if (control == null)
+                throw new ArgumentNullException("control");
+
+            Show(control, control.ClientRectangle);
+        }
+
 
     }
 }
