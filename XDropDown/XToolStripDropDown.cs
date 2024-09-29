@@ -66,5 +66,13 @@ namespace XDropDown
             Show(control, control.ClientRectangle);
         }
 
+
+        public void Show(Form f, Point p)
+        {
+            this.Show(f, new Rectangle(p, new Size(0, 0)));
+
+        }
+
+
     }
 }
