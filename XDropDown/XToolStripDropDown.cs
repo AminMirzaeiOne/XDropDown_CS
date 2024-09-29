@@ -42,6 +42,14 @@ namespace XDropDown
             };
         }
 
+        protected override bool ProcessDialogKey(Keys keyData)
+        {//prevent alt from closing it and allow alt+menumonic to work
+            if ((keyData & Keys.Alt) == Keys.Alt)
+                return false;
+
+            return base.ProcessDialogKey(keyData);
+        }
+
 
     }
 }
