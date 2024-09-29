@@ -13,5 +13,8 @@ namespace XDropDown
 
         private ToolStripControlHost m_host;
 
+        private bool m_fade = true;
+
+
     }
 }
