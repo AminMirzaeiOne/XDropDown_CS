@@ -23,7 +23,6 @@ namespace XDropDown
 
         public XToolStripDropDown(System.Windows.Forms.Control popedControl)
         {
-            InitializeComponent();
             if (popedControl == null)
                 throw new ArgumentNullException("content");
 
