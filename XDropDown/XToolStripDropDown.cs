@@ -73,6 +73,27 @@ namespace XDropDown
 
         }
 
+        private void Show(Control control, Rectangle area)
+        {
+            if (control == null)
+                throw new ArgumentNullException("control");
+
+
+            Point location = control.PointToScreen(new Point(area.Left, area.Top + area.Height));
+
+            Rectangle screen = Screen.FromControl(control).WorkingArea;
+
+            if (location.X + Size.Width > (screen.Left + screen.Width))
+                location.X = (screen.Left + screen.Width) - Size.Width;
+
+            if (location.Y + Size.Height > (screen.Top + screen.Height))
+                location.Y -= Size.Height + area.Height;
+
+            location = control.PointToClient(location);
+
+            Show(control, location, ToolStripDropDownDirection.BelowRight);
+        }
+
 
     }
 }
