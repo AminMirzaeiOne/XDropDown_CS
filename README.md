@@ -13,11 +13,11 @@ A library for custom display controls in Drop Down Menu (Windows form) <br />
 - Support Fusion and Flat styles <br />
 
 <h2> 🏗 Build Information</h2>
-- Made in year = February 2016 <br />
+- Made in year = February 2018 <br />
 ----------------------------------------------- <br />
-- .NET Framework =  4.5.1 <br />
-- Csharp = Csharp 5.0.0 <br />
-- Micrsoft Visual Studio = VS 2012 <br />
+- .NET Framework =  4.6.2 <br />
+- Csharp = Csharp 7.0.0 <br />
+- Micrsoft Visual Studio = VS 2015 <br />
 
 
 <h2> 📜 Program Rules</h2>
