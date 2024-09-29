@@ -10,5 +10,8 @@ namespace XDropDown
     public class XToolStripDropDown : System.Windows.Forms.ToolStripDropDown
     {
         private System.Windows.Forms.Control m_popedContainer;
+
+        private ToolStripControlHost m_host;
+
     }
 }
