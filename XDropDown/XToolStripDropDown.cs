@@ -127,6 +127,13 @@ namespace XDropDown
         }
 
 
+        protected override void OnOpened(EventArgs e)
+        {
+            m_popedContainer.Focus();
+
+            base.OnOpened(e);
+        }
+
 
 
     }
