@@ -4,13 +4,8 @@
 A library for custom display controls in Drop Down Menu (Windows form) <br />
 
 <h2> ⭐ Features</h2>
-- Light Mode and Dark Mode<br />
-- Theme Colors support <br />
-- Support Symbol Icons <br />
-- Optimized for big data <br />
-- Support for different fonts <br />
-- Support for 67 living languages ​​of the world <br />
-- Support Fusion and Flat styles <br />
+- Display usercontrol and control and forms as DropDown <br />
+- It has different and practical events
 
 <h2> 🏗 Build Information</h2>
 - Made in year = February 2018 <br />
@@ -26,8 +21,7 @@ A library for custom display controls in Drop Down Menu (Windows form) <br />
 
 <h2> 💡 How to use</h2>
 1 - Add the library (DLL) file to your Windows Forms application via Add Reference <br />
-2 - In the toolbox section, an option named IntelligenceMenu has been added, which you should drag and drop into your form designer. <br />
-3 - Then go to Intelligence Menu item feature and enter your desired options and write their text <br />
-4 - Then go to the desired TextBox or RichTextBox inside the form and select it and set the IntelligenceMenu option from among its properties. <br />
+2 - Enter the MouseDown or Click event of the control where you want the DropDown to open <br />
+3 - 
 
 <h2>📷 Screenshots</h2>
