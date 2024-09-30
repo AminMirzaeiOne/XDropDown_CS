@@ -21,7 +21,6 @@ A library for custom display controls in Drop Down Menu (Windows form) <br />
 
 <h2> 💡 How to use</h2>
 1 - Add the library (DLL) file to your Windows Forms application via Add Reference <br />
-2 - Enter the MouseDown or Click event of the control where you want the DropDown to open <br />
-3 - 
-
-<h2>📷 Screenshots</h2>
+2 - Create an instance of the XToolStripDropDown class and then enter the UserControl or the control you want to display in the constructor of the created class. <br />
+3 - Enter the MouseDown or Click event of the control where you want the DropDown to open <br />
+4 - Now write the Show() command from the created class
